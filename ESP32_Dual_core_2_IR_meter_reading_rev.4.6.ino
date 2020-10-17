@@ -11,7 +11,7 @@ int lengthOfJSON;
 char thingsboard_url[] = "demo.thingsboard.io";
 char port[] = "80";                    // PORT Connected on
 String getStr = "";
-String AccessToken = "#Acess token";   //Add thr access token for the device which get it from thingsboard platform
+String AccessToken = "#Acess token";   //Add the access token for the device which get it from thingsboard platform
 unsigned long delay_hour;
 unsigned long delay_mini;
 unsigned long delaytime = 0;
@@ -21,7 +21,7 @@ unsigned long time_1 = 0;
 unsigned long time_2 = 0;
 unsigned long time_3 = 0;
 #define EEPROM_SIZE 4000
-int isStickerPin = 34;///15;  // This is our input pin
+int isStickerPin = 34;///15;  // This is our input pin, Pin 34 ESP32
 int isSticker ;  // HIGH MEANS NO OBSTACLE
 byte Power = HIGH;
 int count = 0;
